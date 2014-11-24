@@ -9,21 +9,13 @@ var bio = {
 		"location": "Lafayette, LA"
 	},
 	"skills" : ["HTML", "CSS", "JS", "jQuery", "Customer Service"],
-	"bioPic": "http://placehold.it/150x100"
+	"bioPic": "images/me.jpg"
 };
 
 var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
 $("#header").prepend(formattedRole);
 var formattedName = HTMLheaderName.replace("%data%", bio.name);
 $("#header").prepend(formattedName);
-/* var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
-$("#topContacts").append(formattedMobile);
-var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
-$("#topContacts").append(formattedEmail);
-var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
-$("#topContacts").append(formattedGithub);
-var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
-$("#topContacts").append(formattedLocation); */
 var formattedMsg = HTMLWelcomeMsg.replace("%data%", bio.welcomeMessage);
 $("#header").append(formattedMsg);
 var formattedPic = HTMLbioPic.replace("%data%", bio.bioPic);
