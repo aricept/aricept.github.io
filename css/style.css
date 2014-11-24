@@ -108,6 +108,11 @@ a {
   color: #FFFFFF;
 }
 
+.gray-text {
+  font-weight: bold;
+  color: #F3F3F3;
+}
+
 .gray {
   background-color: #F3F3F3;
   padding-bottom: 10px;
@@ -140,6 +145,10 @@ ul {
   list-style-type: none;
 }
 
+.flex-item {
+  display: inline;
+  padding-right: 10px;
+}
 
 .biopic {
   float: left;
