@@ -19,7 +19,7 @@ $("#header").prepend(formattedName);
 var formattedMsg = HTMLWelcomeMsg.replace("%data%", bio.welcomeMessage);
 $("#header").append(formattedMsg);
 var formattedPic = HTMLbioPic.replace("%data%", bio.bioPic);
-formattedPic.insertAfter($("#header"));
+$("#header").append(formattedPic);
 
 function contactsDisplay() {
 	for (contact in bio.contacts) {
