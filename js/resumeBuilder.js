@@ -3,7 +3,7 @@ var bio = {
 	"role" : "Customer Service Manager",
 	"welcomeMessage": "Want to know more about me?",
 	"contacts" : {
-		"mobile": "318-356-7727",
+		"mobile": "555-555-1212",
 		"email": "aricept@gmail.com",
 		"github": "aricept",
 		"location": "Lafayette, LA"
