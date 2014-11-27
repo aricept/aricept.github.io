@@ -188,8 +188,11 @@ img {
 
 .section {
  text-align: right;
- position: sticky;
- top: 0;
+}
+
+.sticky {
+	position: sticky;
+	top: 0;
 }
 
 /* Bar chart stuff */
