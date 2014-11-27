@@ -1,14 +1,14 @@
 *{
     padding:0;
     margin:0;
-    font-family: 'Roboto', sans-serif;
+    font:24px 'Roboto', sans-serif;
 }
 
 
 
 .education-entry, .work-entry, .project-entry {
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 
@@ -22,7 +22,7 @@ h1 {
 
 h2 {
   font-style: bold;
-  font-size: 24px;
+  font-size: 30px;
   color: #999999;
   line-height: 29px;
   padding: 10px;
@@ -108,6 +108,14 @@ a {
   color: #FFFFFF;
 }
 
+.role {
+  float: right;
+  vertical-align: bottom;
+  padding-bottom: 0;
+  margin: 0;
+  line-height: 41px;
+  }
+
 .gray-text {
   font-weight: bold;
   color: #F3F3F3;
@@ -126,6 +134,15 @@ a {
 /* TODO: Replace with image later */
 #header {
   background-color: #484848;
+}
+
+.name-bar {
+  background-color: #484848;
+  width: 100%;
+  height: 45px;
+  top: 0;
+  left: 0;
+  position: fixed;
 }
 
 .flex-box {
@@ -161,6 +178,9 @@ img {
   padding: 10px;
 }
 
+.section {
+ text-align: right;
+}
 
 /* Bar chart stuff */
 .chart div {
@@ -203,6 +223,9 @@ span {
   }
   .welcome-message {
     display: none;
+  }
+  .role {
+	display: none;
   }
 }
 
