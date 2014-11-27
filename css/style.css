@@ -113,7 +113,7 @@ a {
   vertical-align: bottom;
   padding-bottom: 0;
   margin: 0;
-  line-height: 41px;
+  line-height: 40px;
   }
 
 .gray-text {
@@ -125,6 +125,13 @@ a {
   background-color: #F3F3F3;
   padding-bottom: 10px;
   clear:both;
+}
+
+.white-bg {
+  background-color: #fff;
+  padding-bottom: 10px;
+  clear:both;
+}
 }
 
 .dark-gray {
@@ -140,9 +147,8 @@ a {
   background-color: #484848;
   width: 100%;
   height: 45px;
-  top: 0;
-  left: 0;
-  position: fixed;
+  position: sticky;
+  top: 0px;
 }
 
 .flex-box {
@@ -180,6 +186,8 @@ img {
 
 .section {
  text-align: right;
+ position: sticky;
+ top: 0;
 }
 
 /* Bar chart stuff */

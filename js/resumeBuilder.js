@@ -15,7 +15,7 @@ var bio = {
 var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
 // $("#header").prepend(formattedRole);
 var formattedName = HTMLheaderName.replace("%data%", bio.name);
-$("#header").prepend(formattedName+formattedRole);
+$("#main").prepend(formattedName+formattedRole);
 var formattedMsg = HTMLWelcomeMsg.replace("%data%", bio.welcomeMessage);
 $("#header").append(formattedMsg);
 var formattedPic = HTMLbioPic.replace("%data%", bio.bioPic);
@@ -141,3 +141,12 @@ contactsDisplay();
 $("#lets-connect").click(function() {
   $("#footerContacts").toggle();
   });
+
+/* function sectionTops() {
+	var sections = $(".section");
+	for (section in sections) {
+		alert(sections[section].text()+": "+sections[section].attr("top"));
+	}
+} */
+var sectOff = $(".section:first").offset();
+alert($(".section:first").text()+":"+sectOff.top);
