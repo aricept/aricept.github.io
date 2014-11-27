@@ -193,6 +193,10 @@ img {
 .sticky {
 	position: sticky;
 	top: 0;
+	font-style: bold;
+ font-size: 30px;
+ color: #999999;
+ line-height: 29px;
 }
 
 /* Bar chart stuff */
