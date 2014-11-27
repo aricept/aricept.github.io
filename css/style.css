@@ -4,7 +4,9 @@
     font:18px 'Roboto', sans-serif;
 }
 
-
+#footerContacts {
+	background-color: #484848;
+}
 
 .education-entry, .work-entry, .project-entry {
   padding-left: 10%;
@@ -14,7 +16,7 @@
 
 h1 {
 
-  font-size: 40px;
+  font-size: 30px;
   color: #F5A623;
   line-height: 48px;
   display: inline;
