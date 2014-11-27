@@ -13,9 +13,9 @@ var bio = {
 };
 
 var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
-$("#header").prepend(formattedRole);
+// $("#header").prepend(formattedRole);
 var formattedName = HTMLheaderName.replace("%data%", bio.name);
-$("#header").prepend(formattedName);
+$("#header").prepend(formattedName+formattedRole);
 var formattedMsg = HTMLWelcomeMsg.replace("%data%", bio.welcomeMessage);
 $("#header").append(formattedMsg);
 var formattedPic = HTMLbioPic.replace("%data%", bio.bioPic);
@@ -131,7 +131,13 @@ projects.display = function() {
 	}
 }
 
+$("#name").slide = function() {}
+
 projects.display();
 displaywork();
 education.display();
 contactsDisplay();
+
+$("#lets-connect").click(function() {
+  $("#footerContacts").toggle();
+  });
