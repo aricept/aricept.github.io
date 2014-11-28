@@ -87,10 +87,10 @@ education.display = function() {
 	$("#education").append(HTMLonlineClasses);
 	for (course in education.online) {
 $("#education").append(HTMLschoolStart);
-		var formattedTitle = HTMLonlineTitle.replace("%data%", education.online.title);
-var formattedSchool = HTMLonlineSchool.replace("%data%",education.online.school);
-var formattedDates = HTMLonlineDates.replace("%data%", education.online.dates);
-var formattedUrl = HTMLonlineURL.replace("%data%", education.online.url);
+		var formattedTitle = HTMLonlineTitle.replace("%data%", education.online[course].title);
+var formattedSchool = HTMLonlineSchool.replace("%data%",education.online[course].school);
+var formattedDates = HTMLonlineDates.replace("%data%", education.online[course].dates);
+var formattedUrl = HTMLonlineURL.replace("%data%", education.online[course].url);
 $(".education-entry:last").append(formattedTitle+formattedSchool+formattedDates+formattedUrl);
 	}
 }
