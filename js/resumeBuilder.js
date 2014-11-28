@@ -1,6 +1,6 @@
 var bio = {
 	"name" : "Nathan Miller",
-	"role" : "Customer Service Manager",
+	"role" : "Aspiring Web Developer",
 	"welcomeMessage": "Want to know more about me?",
 	"contacts" : {
 		"mobile": "555-555-1212",
@@ -8,7 +8,7 @@ var bio = {
 		"github": "aricept",
 		"location": "Lafayette, LA"
 	},
-	"skills" : ["HTML", "CSS", "JS", "jQuery", "Customer Service"],
+	"skills" : ["Object-Oriented Programming", "Customer Service", "HTML", "CSS", "JavaScript", "jQuery"],
 	"bioPic": "images/me.jpg"
 };
 
@@ -101,12 +101,12 @@ var projects = {
 		{
 			"title": "Behavior Grid: Touch",
 			"dates": "October 2014",
-			"description": "Designed and implemented behavior grid in HTML/CSS/Javascript.  Created memo-generator from the choices made in the grid."
+			"description": "Designed and implemented behavior grid in HTML/CSS/Javascript geared toward use on touch interfaces.  Coded around limitations required for use of IE8 for the project.  Created memo-generator from the choices made in the grid using ActiveX API."
 		},
 		{
 			"title": "Rerate Calculator",
 			"dates": "February 2014 ",
-			"description": "Designed and implemented a calculator to assist with rating difference between overages and a new plan, and generating a note to explain the calculaton."
+			"description": "Designed and implemented a calculator to assist with rating difference between overages and a new plan, and generating a note to explain the calculaton.  Implemented using HTML, CSS, JavaScript and jQuery.  Utilized PIE.css to make additional CSS finctionality available in IE8."
 		},
 		{
 			"title": "AT&T Next Calculator",

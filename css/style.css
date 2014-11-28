@@ -110,11 +110,12 @@ a {
 }
 
 .role {
-  float: right;
+  /*float: right; */
   vertical-align: bottom;
   padding-bottom: 0;
   margin: 0;
   line-height: 40px;
+  position: static;
   }
 
 .gray-text {
@@ -143,6 +144,8 @@ a {
   height: 45px;
   position: sticky;
   top: 0px;
+  -moz-box-shadow: 0 5px 5px -3px black;
+  box-shadow: 0 3px 5px -2px black;
 }
 
 .flex-box {
@@ -170,7 +173,7 @@ ul {
 .biopic {
   float: left;
   padding: 10px;
-  width: 100px;
+  width: 200px;
   display: none;
 }
 
