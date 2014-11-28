@@ -63,11 +63,14 @@ var education = {
 	"major": "English",
 	"degree": "Bachelor of Arts",
 	"dates": "Expected 2016",
-	"online": {
+	"online": { [
+	 {
 		"title": "Front-End Web Developer",
 		"school": "Udacity",
 		"dates": "November 2014",
 		"url": "http://www.udacity.com/course/nd001"
+		}
+		]
 	}
 };
 
