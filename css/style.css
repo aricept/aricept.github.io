@@ -191,6 +191,7 @@ img {
  text-align: right;
  position: sticky;
  top: 0;
+ opacity: .99;
  z-index:3;
 }
 
