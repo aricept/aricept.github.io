@@ -217,9 +217,9 @@ span {
 }
 
 @media only screen and (max-width: 750px) {
-  #letsConnect {
+  /*#letsConnect {
     margin-top: 10%;
-  }
+  }*/
   .biopic {
     width: 150px;
   }
