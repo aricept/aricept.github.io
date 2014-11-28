@@ -50,6 +50,9 @@ h2, h3, h4, h5 {
   padding-right: 5%;
 }
 
+.two-word {
+	display: inline;
+}
 
 .date-text {
   font-style: italic;
@@ -187,13 +190,13 @@ img {
   padding: 10px;
 }
 
-.section {
+/*.section {
  text-align: right;
  position: sticky;
  top: 0;
  opacity: .99;
  z-index:3;
-}
+}*/
 
 .non-sticky {
   z-index: 1;
