@@ -62,7 +62,13 @@ var education = {
 	"location": "Natchitoches, LA",
 	"major": "English",
 	"degree": "Bachelor of Arts",
-	"dates": "Expected 2016"
+	"dates": "Expected 2016",
+	"online": {
+		"title": "Front-End Web Developer",
+		"school": "Udacity",
+		"dates": "November 2014",
+		"url": "http://www.udacity.com/course/nd001"
+	}
 };
 
 education.display = function() {
@@ -76,6 +82,15 @@ education.display = function() {
 	$(".education-entry:last").append(formattedDates);
 	var formattedMajor = HTMLschoolMajor.replace("%data%", education.major);
 	$(".education-entry:last").append(formattedMajor);
+	$("#education").append(HTMLonlineClasses);
+	for (course in education.online) {
+$("#education").append(HTMLschoolStart);
+		var formattedTitle = HTMLonlineTitle.replace("%data%", education.online.title);
+var formattedSchool = HTMLonlineSchool.replace("%data%",education.online.school);
+var formattedDates = HTMLonlineDates.replace("%data%", education.online.dates);
+var formattedUrl = HTMLonlineURL.replace("%data%", education.online.url);
+$(".education-entry:last").append(formattedTitle+formattedSchool+formattedDates+formattedUrl);
+	}
 }
 
 var projects = {
@@ -137,16 +152,3 @@ projects.display();
 displaywork();
 education.display();
 contactsDisplay();
-
-$("#lets-connect").click(function() {
-  $("#footerContacts").toggle();
-  });
-
-/* function sectionTops() {
-	var sections = $(".section");
-	for (section in sections) {
-		alert(sections[section].text()+": "+sections[section].attr("top"));
-	}
-} */
-var sectOff = $(".section:first").offset();
-alert($(".section:first").text()+":"+sectOff.top);
