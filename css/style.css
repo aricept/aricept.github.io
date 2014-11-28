@@ -191,12 +191,12 @@ img {
 }
 
 .sticky {
-	position: sticky;
-	top: 0;
-	font-style: bold;
- font-size: 30px;
- color: #999999;
- line-height: 29px;
+  position: sticky;
+  top: 0;
+}
+
+.non-sticky {
+  z-index: 1;
 }
 
 /* Bar chart stuff */
