@@ -196,6 +196,10 @@ img {
 
 .non-sticky {
   z-index: 1;
+  font-style: bold;
+  font-size: 30px;
+  color: #999999;
+  line-height: 29px;
 }
 
 /* Bar chart stuff */
