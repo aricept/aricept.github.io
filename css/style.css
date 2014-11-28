@@ -151,6 +151,7 @@ a {
   height: 45px;
   position: sticky;
   top: 0px;
+  z-index: 2;
 }
 
 .flex-box {
@@ -190,10 +191,11 @@ img {
  text-align: right;
  position: sticky;
  top: 0;
+ z-index:3;
 }
 
 .non-sticky {
-  z-index: 0;
+  z-index: 1;
 }
 
 /* Bar chart stuff */
